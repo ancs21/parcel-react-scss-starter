@@ -1,0 +1,22 @@
+{
+  "name": "parcel-react-scss-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rm -rf .cache && rm -rf dist && parcel ./src/index.html --port 8888",
+    "start": "parcel ./src/index.html --port 8888",
+    "build": "parcel build ./src/index.html"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.9.0",
+    "parcel-bundler": "^1.8.1"
+  }
+}
